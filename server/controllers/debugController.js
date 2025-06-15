@@ -29,7 +29,7 @@ exports.debugCode = async (req, res) => {
         headers: {
           Authorization: `Bearer ${process.env.OPENROUTER_API_KEY}`,
           "Content-Type": "application/json",
-          "HTTP-Referer": "https://ai-code-debugger-amber.vercel.app", 
+          "HTTP-Referer": "https://ai-code-debugger.onrender.com", 
           "X-Title": "AI Code Debugger"
         }
       }
