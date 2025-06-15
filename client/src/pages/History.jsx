@@ -12,7 +12,7 @@ const History = () => {
     const fetchHistory = async () => {
       try {
         const token = localStorage.getItem("token");
-        const res = await axios.get("http://localhost:8000/api/history", {
+        const res = await axios.get("https://ai-code-debugger.onrender.com/api/history", {
           headers: {
             Authorization: `Bearer ${token}`,
           },

@@ -148,7 +148,7 @@ const Debug = () => {
     try {
       const token = localStorage.getItem("token");
       const res = await axios.post(
-        "http://localhost:8000/api/debug",
+        "https://ai-code-debugger.onrender.com/api/debug",
         { language, code },
         {
           headers: {

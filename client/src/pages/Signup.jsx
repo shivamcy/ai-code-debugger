@@ -10,7 +10,7 @@ const Signup = () => {
 
   const handleSignup = async () => {
     try {
-      await axios.post("http://localhost:8000/api/auth/signup", {
+      await axios.post("https://ai-code-debugger.onrender.com/api/auth/signup", {
         email,
         password,
       });
