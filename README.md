@@ -1,6 +1,6 @@
 # 🧠 AI Code Debugger
 
-An AI-powered code debugging tool that analyzes code snippets, identifies errors, and suggests intelligent fixes in real-time. Built using React, Node.js, and OpenAI’s API, it provides an intuitive interface and supports multiple programming languages.
+An AI-powered code debugging tool that analyzes code snippets, identifies errors, and suggests intelligent fixes in real-time. Built using React, Node.js, and OpenRouter’s API, it provides an intuitive interface and supports multiple programming languages.
 
 ---
 
