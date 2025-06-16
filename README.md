@@ -35,28 +35,32 @@ An AI-powered code debugging tool that analyzes code snippets, identifies errors
 Follow these steps to run the project locally.
 
 ### 1. Clone the repository
-
+```bash
 git clone https://github.com/shivamcy/ai-code-debugger.git
 cd ai-code-debugger
-
+```
 ### 2. Setup Frontend
+```bash
 cd client
 npm install
 npm start
-
+```
 ### 3.Setup Backend
+```bash
 cd ../server
 npm install
 npm run dev
-
+```
 ### 4.Setup .env
 Add MONGO_URI , OPENROUTER_API_KEY , JWT_SECRET .
 
 
 ## 🤝 For Contribution
+```bash
 git checkout -b feature/your-feature-name
 git commit -m "Add your message"
 git push origin feature/your-feature-name
+```
 
 
 
